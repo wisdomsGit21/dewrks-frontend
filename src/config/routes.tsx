@@ -28,7 +28,7 @@ export function appRouter(): RouteObject[] {
     },
     {
       path: "*",
-      element: <Navigate to="/dashboard" replace />,
+      element: <Navigate to="/signin" replace />,
     },
   ];
 }
